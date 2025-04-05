@@ -1,0 +1,377 @@
+
+.subhead-first{
+    color: #393a40;
+    font-size: 33px;
+   font-family: Verdana;
+    top: 50%;
+    text-align: center;
+    font-weight: lighter;
+
+} 
+
+.subhead{
+    color: #393a40;
+    font-size: 33px;
+   font-family: Verdana;
+    top: 50%;
+    padding-left: 30px;
+    text-align: left;
+    font-weight: lighter;
+    font-style: italic;
+
+
+} 
+.intro{
+
+   color: #60636b;
+    font-size: 23px;
+   font-family: Verdana;
+    text-align: center;
+    padding-bottom: 90px; 
+    font-weight: lighter;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+  
+}
+.tokyo-left-text{
+
+          color: #60636b;
+    font-size: 23px;
+   font-family: Verdana;
+    text-align: right;
+   padding-top: 20px;
+   padding-right: 20px;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+.text-background{
+    background: #e8e9eb;
+     color: #60636b;
+    border-radius: 6px;
+    font-size: 23px;
+   font-family: Verdana;
+    text-align: left;
+   padding-top: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+    margin-left: 600px;
+    margin-right: 20px;
+
+    font-weight: lighter;
+}
+.tokyo-right-text{
+      color: #60636b;
+    font-size: 23px;
+   font-family: Verdana;
+    text-align: left;
+   padding-top: 20px;
+   padding-right: 20px;
+    margin-left: 20px;
+    font-weight: lighter; 
+}
+
+header {
+    width: 98.3vw; /* Full viewport width */
+    height: 630px; /* Match your image height (adjust as needed) */
+    position: relative; /* For positioning overlay text */
+    overflow: hidden;
+}
+
+#mountFuji {
+    width: 99%; /* Stretch to full width of header */
+    height: 99%; /* Stretch to full height of header */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block;
+
+
+}
+.full-screen-image{
+
+    width: 97.5vw; /* Full viewport width */
+    height: 97vh; /* Full viewport height */
+    object-fit: cover; /* Scales image to cover the area, cropping if necessary */
+    display: block; /* Removes any default spacing */
+ 
+    top: 0;
+    left: 0;
+    z-index: -1; /* Sends it behind other content if needed */
+    border: none; /* Ensures no border */
+    margin: 0; /* Removes any margins */
+    padding: 0;
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    bottom: 5%;
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Verdana;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.linked-header-text{
+
+      position: absolute;
+    top: 80%;
+    left: 2%;
+    bottom: 5%;
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Verdana;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+}
+.above-header-text{
+    position: absolute;
+    top: 43%;
+    left: 2%;
+    bottom: 5%;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.city-header-left{
+  color: #393a40;
+    font-size: 50px;
+   font-family: Verdana;
+    text-align: left; 
+   font-weight: bold; 
+   padding-left: 50px;
+   padding-bottom: 10px ;
+  
+}
+
+.city-header-right{
+  color: #393a40;
+    font-size: 50px;
+   font-family: Verdana;
+    text-align: right;
+    font-weight: bold; 
+   padding-right: 50px;
+   padding-bottom: 20px; 
+
+}
+
+
+.city-image-left{
+
+    width: 500px;
+    height: 500px;
+    float: left;
+    padding-left: 50px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .5s ease;
+    display: block;
+}
+
+
+.city-image-right{
+
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding-right: 50px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .5s ease;
+    display: block;
+}
+
+.right-image{
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.left-image{
+    width: 500px;
+    height: 500px;
+    float: left;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.attractions{
+    width: 260px;
+    height: 200px;
+    float: left;
+    padding-right: 1px;
+    padding-left: 20px;
+      padding-top: 20px;
+}
+.attractionsBottom{
+    width: 260px;
+    height: 200px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 1px;
+    padding-left: 20px;
+}
+
+.why{
+    width: 260px;
+    height: 200px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 1px;
+    padding-left: 20px;
+}
+
+
+.city-image-left:hover, .city-image-right:hover {
+    opacity: 0.6;
+}
+
+
+.city-image-container {
+    position: relative;
+    display: inline-block; /* Keeps images side by side */
+    vertical-align: top;
+}
+
+.city-button {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.5s ease;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
+    text-align: center;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+.city-button-right {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.5s ease;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: bold;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
+    text-align: center;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+
+.city-image-container:hover .city-image-left,
+.city-image-container:hover .city-image-right {
+    opacity: 0.6; /* Image fades when container is hovered */
+}
+
+.city-image-container:hover .city-button {
+    opacity: 1; /* Show button when container is hovered */
+}
+
+.city-image-container:hover  .city-button-right{
+    opacity: 1; /* Show button when container is hovered */
+}
+
+.city-button:hover, .city-button-right:hover {
+    opacity: 1; /* Ensure button stays visible when hovered directly */
+}
+
+
+.city-button:active, .city-button-right:active {
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow disappears when clicked */
+    color: #ebeced;
+}
+
+p {
+    color: #393a40;
+    font-family: Verdana;
+    font-size: 21px;
+}
+.article {
+            display: inline-block;
+            width: 45%;
+            vertical-align: top;
+            margin-left: 40px;
+            margin-top: 20px;
+           }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  font-family: Verdana;
+  background-color: #e8e9eb;
+  color: white;
+}
+.links {
+ list-style-type: none; /* Remove default bullets */
+    margin: 0;
+    padding: 0;
+  margin-right: 600px;
+    color: white;
+    position: sticky; /* Keeps nav at top */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+.links ul {
+    display: flex; /* Horizontal layout for nav items */
+    justify-content: flex-start; /* Align items to start */
+    align-items: center; /* Vertically center items */
+ flex-wrap: nowrap; /* Prevents items from wrapping to the next line */
+    padding: 0; /* Remove any default padding */
+    margin: 0;
+
+}
+.innerLink {
+
+  display: inline-block;
+     background-color: dimgrey;/* Dark background for nav bar */
+    opacity: 0.5;
+
+}
+.innerLink a {
+    display: block;
+    width: 120px; /* Wider for better click area */
+    color: white; /* White text for contrast */
+    text-align: center; /* Center text in links */
+    padding: 14px 16px; /* More padding for nav bar look */
+    text-decoration: none;
+    opacity: 1;
+    font-family: Verdana;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+.innerLink a:hover {
+    background-color: #e8e9eb; /* Light background on hover */
+    color: #0d1624; /* Dark text on hover for contrast */
+}
+/* Ensure normal lists (not in nav bar) retain default or existing styles */
+ul{
+    list-style-type: disc; /* Default bullet for unordered lists */
+    margin: 1em 0; /* Default margin */
+    padding-left: 40px; /* Default padding for indentation */
+}
